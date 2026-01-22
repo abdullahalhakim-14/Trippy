@@ -1,0 +1,66 @@
+.Footer {
+  background-color: #222;
+  color: #fff;
+  padding: 4rem 6rem;
+
+  .up {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: start;
+
+    h4 {
+      font-size: 2.8rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+    }
+
+    i {
+      color: #fff;
+      font-size: 2rem;
+      margin-left: 1rem;
+
+      &:hover {
+        transition: 0.5s;
+        color: #01959a;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .down {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2rem;
+    text-align: start;
+
+    .down dev {
+      display: flex;
+      flex-direction: column;
+    }
+
+    h4 {
+      font-size: 1.6rem;
+      padding: 1rem 0 0.8rem;
+    }
+
+    li {
+      font-size: 1.3rem;
+      padding-bottom: 0.4rem;
+      list-style: none;
+      & :hover {
+        transition: 0.5s;
+        color: #01959a;
+      }
+
+      a {
+        color: #fafafa;
+        text-decoration: dotted;
+      }
+    }
+  }
+}
